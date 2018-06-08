@@ -15,12 +15,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-// Translation maintainer: ForstWoof <i18n@forstwoof.ru>
+// Translation maintainer: ForstWoof <i18n@forstwoof.ru>; Dm. Yerokhin <erodim@mail.ru>
 
 "Files" = "Файлы";
 "Databases" = "Базы данных";
-"Key File" = "Файл ключа";
-"Key Files" = "Файлы ключей";
+"Key File" = "Ключевой файл";
+"Key Files" = "Ключевые файлы";
 "Groups" = "Группы";
 "Entries" = "Записи";
 "Group" = "Группа";
@@ -55,8 +55,8 @@
 "Last Modified" = "Последнее изменение";
 "Copied" = "Скопировано";
 "In Memory Protection" = "Защита в памяти";
-"Custom Field" = "Пользовательское поле";
-"Custom Fields" = "Пользовательские поля";
+"Custom Field" = "Своё поле";
+"Custom Fields" = "Свои поля";
 "Add new…" = "Добавить…";
 "Choose Group" = "Выбор группы";
 "Backup" = "Резервирование";
@@ -64,45 +64,45 @@
 // General Messages
 "Enter your PIN to unlock" = "Введите PIN-код для разблокировки";
 "Unlock MiniKeePass" = "Разблокировать MiniKeePass";
-"Enter the password and/or select the keyfile for the %@ database." = "Введите пароль и/или выберите файл ключа для базы данных %@.";
-"Enter a new name for the password database. The correct file extension will automatically be appended." = "Введите новое имя для базы данных. Правильное расширение файла будет автоматически добавлено.";
-"Do not forget your database password, it cannot be recovered." = "Запомните ваш пароль к базе данных, он не может быть восстановлён.";
+"Enter the password and/or select the keyfile for the %@ database." = "Введите пароль и/или выберите ключевой файл для базы данных %@.";
+"Enter a new name for the password database. The correct file extension will automatically be appended." = "Введите новое имя для базы данных. Правильное расширение файла будет добавлено автоматически.";
+"Do not forget your database password, it cannot be recovered." = "Запомните свой пароль к базе данных - он не может быть восстановлён.";
 
 // Error Messages
 "Error" = "Ошибка";
-"New name is invalid" = "Новое имя недействительно";
+"New name is invalid" = "Новое имя недопустимо";
 "Name cannot be empty" = "Имя не может быть пустым";
-"Database name is required" = "Имя базы данных необходимо";
+"Database name is required" = "Требуется имя базы данных";
 "Passwords do not match" = "Пароли не совпадают";
-"Password is required" = "Ввод пароля обязателен";
+"Password is required" = "Требуется ввести пароль";
 "Incorrect PIN" = "Неправильный PIN";
 "Attempts Remaining" = "Осталось попыток";
-"Filename is invalid" = "Имя файла недействительно";
+"Filename is invalid" = "Имя файла недопустимо";
 "A file already exists with this name" = "Файл с этим именем уже существует";
-"There are no applications installed capable of importing KeePass files" = "Нет установленных приложений, способных импортировать файлы KeePass";
-"Tap the + button to add a new KeePass file." = "Нажмите кнопку +, чтобы добавить новый файл KeePass.";
-"No password or keyfile specified" = "Не указан ни пароль, ни файл ключа";
+"There are no applications installed capable of importing KeePass files" = "Нет установленных приложений для импорта файлов KeePass";
+"Tap the + button to add a new KeePass file." = "Нажмите кнопку <+>, чтобы добавить новый файл KeePass.";
+"No password or keyfile specified" = "Не указаны ни пароль, ни ключевой файл";
 "Error Checking PIN" = "Ошибка проверки PIN";
 
 // Settings Page
 "Settings" = "Настройки";
-"PIN Enabled" = "PIN-код включен";
+"PIN Enabled" = "PIN-код включён";
 "Touch ID" = "Touch ID";
-"Use your fingerprint as an alternative to entering a PIN if supported." = "Используйте ваш отпечаток пальца как альтернативу вводу PIN, если поддерживается.";
-"Lock Timeout" = "Тайм-аут блокировки";
+"Use your fingerprint as an alternative to entering a PIN if supported." = "Вход по отпечатку пальца вместо ввода PIN (если поддерживается).";
+"Lock Timeout" = "Ожидание блокировки";
 "Immediately" = "Сразу";
-"30 Seconds" = "30 сек.";
-"1 Minute" = "1 мин.";
-"2 Minutes" = "2 мин.";
-"3 Minutes" = "3 мин.";
-"5 Minutes" = "5 мин.";
+"30 Seconds" = "30 сек";
+"1 Minute" = "1 мин";
+"2 Minutes" = "2 мин";
+"3 Minutes" = "3 мин";
+"5 Minutes" = "5 мин";
 "Enabled" = "Включено";
 "Attempts" = "Попытки";
 "Close Enabled" = "Включено";
-"Close Timeout" = "Тайм-аут закрытия";
+"Close Timeout" = "Ожидание закрытия";
 "Hide Passwords" = "Скрывать пароли";
 "Sorting" = "Сортировка";
-"Sort Groups and Entries Alphabetically" = "Сортировать группы и записи в алфавитном порядке";
+"Sort Groups and Entries Alphabetically" = "Сортировать группы и записи по алфавиту";
 "Encoding" = "Кодировка";
 "UTF-8" = "UTF-8";
 "UTF-16 Big Endian" = "UTF-16 Big Endian";
@@ -119,25 +119,25 @@
 "Hide Passwords" = "Скрывать пароли";
 "Password Encoding" = "Кодировка паролей";
 "Clear Clipboard on Timeout" = "Очищать буфер обмена по истечении времени";
-"Clear Timeout" = "Тайм-аут очистки";
+"Clear Timeout" = "Ожидание очистки";
 "Prevent unauthorized access to MiniKeePass with a PIN." = "Предотвратить неавторизованный доступ к MiniKeePass с помощью PIN-кода.";
 "Delete all files and passwords after too many failed attempts." = "Удалить все файлы и пароли после нескольких неудачных попыток.";
-"Automatically close an open database after the selected timeout." = "Автоматически закрывать открытую базу данных после заданного тайм-аута.";
+"Automatically close an open database after the selected timeout." = "Автоматически закрывать открытую базу данных после заданного времени ожидания.";
 "Stores remembered database passwords in the devices's secure keychain." = "Сохранять пароли от баз данных в безопасной связке ключей устройства.";
 "Hides passwords when viewing a password entry." = "Скрывать пароли при просмотре записей.";
-"The string encoding used for passwords when converting them to database keys." = "Кодировка текста, используемая при преобразовании паролей в ключи базы данных.";
-"Clear the contents of the clipboard after a given timeout upon performing a copy." = "Очищать буфер обмена после заданного тайм-аута при копировании.";
-"Close Timeout" = "Тайм-аут закрытия";
-"Clear Clipboard Timeout" = "Тайм-аут очистки буфера обмена";
+"The string encoding used for passwords when converting them to database keys." = "Кодировка текста при преобразовании паролей в ключи базы данных.";
+"Clear the contents of the clipboard after a given timeout upon performing a copy." = "Очищать буфер обмена после заданного ожидания при копировании.";
+"Close Timeout" = "Ожидание закрытия";
+"Clear Clipboard Timeout" = "Ожидание очистки буфера обмена";
 "Exclude from backup" = "Исключить из резервной копии";
 "iCloud/iTunes Backup" = "Резервная копия iCloud/iTunes";
-"Exclude databases and key files from iTunes/iCloud backups." = "Исключить базы данных и файлы ключей из резервных копий iTunes/iCloud.";
+"Exclude databases and key files from iTunes/iCloud backups." = "Исключить базы данных и ключевые файлы из резервных копий iTunes/iCloud.";
 "Web Browser" = "Веб-браузер";
 "Integrated" = "Встроенный";
 "Switch between an integrated web browser and Safari." = "Переключение между встроенным веб-браузером и Safari.";
 "Set PIN" = "Установите PIN-код";
 "Confirm PIN" = "Подтвердите PIN-код";
-"PINs did not match. Try again" = "PIN-коды не совпадают. Попробуйте снова";
+"PINs did not match. Try again" = "PIN-коды не совпадают, попробуйте снова";
 "MiniKeePass version %@" = "MiniKeePass версия %@";
 
 // Help Titles
@@ -145,7 +145,7 @@
 "Dropbox Import/Export" = "Импорт/экспорт Dropbox";
 "Safari/Email Import" = "Импорт из Safari/Mail";
 "Create New Database" = "Создание новой базы данных";
-"Key Files" = "Файлы ключей";
+"Key Files" = "Ключевые файлы";
 
 // Password Generator
 "Generator" = "Генератор";
